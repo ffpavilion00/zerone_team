@@ -1,0 +1,173 @@
+/* About Us Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0 0.6vw;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+    --color-primary: #815ac0;
+    --color-secondary: #9163cb;
+    --color-black: rgb(41, 41, 41);
+    --color-text: #fff;
+    --color-shadow: #6247aa;
+    --color-card: #f8f9fa;
+}
+
+html {}
+
+body {
+    /* overflow: hidden; */
+}
+
+
+/* project jumbotron section */
+
+.project-jumbotron {
+    width: 100%;
+    height: 46vw;
+    /* background-color: green; */
+    display: inline-flex;
+}
+
+.project-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-jumbotron-text {
+    flex-basis: 60%;
+    justify-content: space-around;
+}
+
+.project-jumbotron-text h1 {
+    font-size: 4vw;
+    margin-bottom: 5%;
+    letter-spacing: 0.1vw;
+    color: #ff36ab;
+}
+
+.project-jumbotron-text p {
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+    letter-spacing: 0.1vw;
+}
+
+.project-jumbotron-image {
+    flex: 1;
+    flex-basis: 40%;
+}
+
+.project-jumbotron-image img {
+    height: 40vw;
+    width: 40vw;
+}
+
+
+/* 
+/* objectives */
+
+.project-objectives {
+    color: var(--color-black);
+    /* background-color: #ff9900; */
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding: 2vw;
+}
+
+.project-objectives-row {
+    margin-top: 6vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-objectives h1 {
+    color: var(--color-black);
+    font-size: 2.7vw;
+    font-weight: lighter;
+}
+
+.project-objectives p {
+    color: #e7e7e7;
+    font-size: 1.3vw;
+}
+
+.project-objectives h3 {
+    color: rgb(46, 46, 46);
+    font-size: 1.9vw;
+}
+
+.project-objectives-card {
+    display: inline-flex;
+    flex-direction: column;
+    flex-basis: 31%;
+    height: 16vw;
+    background: var(--color-card);
+    border-radius: 5px;
+    margin: auto;
+    padding: 4vw 2vw;
+    box-sizing: border-box;
+    transition: 0.5s;
+    justify-content: space-between;
+}
+
+.project-objectives-card:hover {
+    box-shadow: 0 0 40px 0 rgba(2, 2, 2, 0.4);
+    z-index: 16;
+}
+
+.project-objectives-card img {
+    padding: 1vw;
+    display: block;
+    width: 7vw;
+    height: 7vw;
+    align-self: center;
+}
+
+
+/* paragraph */
+
+.paragraph {
+    color: #000000;
+    /* background-color: #ff9900; */
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding: 2vw;
+}
+
+.paragraph-container {
+    display: flex;
+    margin-top: 2vw;
+    justify-content: space-between;
+    height: 30vw;
+    background: var(--color-card);
+    border-radius: 5px;
+    margin: auto;
+    padding: 4vw 2vw;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.paragraph-img {
+    padding: 1vw;
+    display: block;
+    width: 10vw;
+    height: 10vw;
+    align-self: center;
+}
+
+.paragraph-container p {
+    display: block;
+    font-size: 1.4vw;
+    text-align: justify;
+}
+
+.paragraph-container:hover {
+    box-shadow: 0 0 40px 0 rgba(2, 2, 2, 0.2);
+    z-index: 6;
+}
